@@ -7,3 +7,4 @@ Applying 3rd partys APIs system with JS
 View the optimal layout for the app depending on their device's screen size
 See hover states for all interactive elements on the page
 Generate a new piece of advice by clicking the dice icon
+https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub/advice-generator-app-OfPOQLCY5z  ( link from Front End Mentor challenge)
