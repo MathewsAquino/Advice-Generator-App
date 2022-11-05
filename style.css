@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+img { 
+
+  max-width: 100%;
+}
+
+button { 
+  user-select: none;
+}
+
+:root {
+
+--light-cyan :hsl(195, 12%, 33%);
+--grayish-blue : hsl(150, 100% , 66%);
+--dark-grayish-blue: hsl(217,19%,24%);
+
+}
+
+* {
+  margin: 0;
+  padding: 0.3;
+  box-sizing: border-box;
+}
+
+body { 
+
+  font-size: 16px;
+  font-family: ''Manrope'' , sans-serif;
+  background-color: var(--dark-grayish-blue);
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 0.1px);
+  text-align: center;
+
+}
+
+.container {
+  background-color: var(--grayish-blue);
+  padding: 1.25rem 1.25rem 3rem;
+  color: #251717;
+  border-radius: 1.25rem;
+  position: relative;
+}
+
+.container h1 {
+  color: var(--neon-green);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 0.50rem;
+  letter-spacing: 0.2rem;
+}
+
+
+.container p {
+  font-size: 25px;
+  color: var(--light-cyan);
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+
+
+.container picture img {
+  background-color: var(--grayish-blue);
+  position: relative;
+}
+
+
+.container picture::before {
+  content: "";
+  width: 40%;
+  height: 1px;
+  background-color: var(--light-cyan);
+  right: 1.25rem;
+  bottom: 3.8rem;
+  position: absolute;
+  display: block;
+  z-index: 99;
+}
+
+
+.container picture::after {
+  content: "";
+  width: 40%;
+  height: 1px;
+  background-color: var(--light-cyan);
+  left: 0;
+  bottom: 0.74rem;
+  position: relative;
+  display: block;
+}
+
+
+
+
+.container {
+
+  background-color: var(--grayish-blue);
+}
+
+.container button {
+  background-color: var(--neon-green);
+  padding: 1.25rem;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1.0rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+
+.container button:hover {
+  background-color: hsl(150, 33%, 50%);
+}
+
+
+
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 480px;
+  }
+}
