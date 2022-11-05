@@ -1,4 +1,4 @@
-# :Advice-Generator-App:
+:# Advice-Generator-App:
 Advice Generator App Challenge from the site Front-End Mentor .
 
 ## :Give it a try on the link below! 
