@@ -1,7 +1,7 @@
-# Advice-Generator-App
+# :Advice-Generator-App:
 Advice Generator App Challenge from the site Front-End Mentor .
 
-## Give it a try on the link below! 
+## :Give it a try on the link below! 
 
 ![favicon-32x32](https://user-images.githubusercontent.com/110079411/200139166-d74fc4eb-feb2-4d1f-8691-b8b8d25279da.png)
 https://mathewsaquino.github.io/Advice-Generator-App/  
